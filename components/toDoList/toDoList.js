@@ -63,8 +63,6 @@ toggleItem = () => {
 const styles = StyleSheet.create({
   container: {
     width: width - 25,
-    // borderBottomColor: '#bbb',
-    // borderBottomWidth: StyleSheet.hairlineWidth,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
