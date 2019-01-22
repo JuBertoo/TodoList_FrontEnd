@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   Dimensions
 } from 'react-native';
-import { withNativeAd } from 'expo/build/facebook-ads';
+
 
 const { height, width } = Dimensions.get('window');
 
@@ -78,14 +78,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginVertical: 20,
     width: 100,
-    
-    // color: 'white',
   },
   circle: {
     width: 30,
     height: 30,
     borderRadius: 15,
-    // remove borderColor property from here
     borderWidth: 3,
     marginLeft: 10,
     marginRight: 20

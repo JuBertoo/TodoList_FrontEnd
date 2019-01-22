@@ -105,7 +105,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 2,
     alignItems: 'center'
-    // justifyContent: 'center'
   },
   appTitle: {
     color: '#fff',
@@ -137,7 +136,6 @@ const styles = StyleSheet.create({
   input: {
     padding: 20,
     borderBottomColor: '#bbb',
-    // borderBottomWidth: 1,
     fontSize: 24,
     
   },
