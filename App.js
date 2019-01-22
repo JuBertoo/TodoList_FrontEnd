@@ -25,7 +25,7 @@ export default class App extends React.Component {
 
  
   getList =()=>{
-    axios.get('http://192.168.86.101:3000/lists')
+    axios.get('https://todolist-api-julien.herokuapp.com/lists')
     .then((res) => {
       this.setState({todos: res.data})
     })
@@ -34,7 +34,7 @@ export default class App extends React.Component {
 
   handleSubmit = () => {
     if(this.state.newTodoItem !== ''){
-      axios.post('http://192.168.86.101:3000/lists', {
+      axios.post('https://todolist-api-julien.herokuapp.com/lists', {
         note: this.state.newTodoItem })
       .then((res) => {
         console.log("Création efffectuées")
@@ -50,7 +50,7 @@ export default class App extends React.Component {
 
   handleDelete = (id) => {
    
-      axios.delete(`http://192.168.86.101:3000/lists/${id}`)
+      axios.delete(`https://todolist-api-julien.herokuapp.com/lists/${id}`)
       .then((res) => {
         this.getList()
       })
