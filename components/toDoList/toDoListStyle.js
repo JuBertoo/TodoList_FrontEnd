@@ -1,7 +1,7 @@
 import {StyleSheet} from "react-native";
 
 module.exports = {
-    toDoStyle : StyleSheet.create({
+    toDoListStyle : StyleSheet.create({
         container: {
             flex: 1,
             backgroundColor: 'red',
